@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 - Add macOS ARM64 platform to the compatibility testing suite. (#5577)
+- Allow configuring the `instrumentation/net/http/otelhttp` with the `OTEL_HTTP_CLIENT_COMPATIBILITY_MODE` environment variable to receive both the current v1.20.0 and the new v1.24.0 attributes. (#5333, #5401)
 
 ### Fixed
 
